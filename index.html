@@ -4,53 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Website</title>
-    <link rel="" href="amazon.html">
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <!-- header section starts -->
 
-<header class="section" id="home">
+<div class="section" id="home">
 
-    <input type="checkbox" name="" id="toggler">
-    <label for="toggler" class="fas fa-bars"></label>
+    <header>
 
-    <a href="#" class="logo">flower<span>.</span></a>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+    
+        <a href="#" class="logo">flower<span>.</span></a>
+    
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#product">product</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            
+        </nav>
+    
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    
+    </header>
 
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#product">product</a>
-        <a href="#review">review</a>
-        <a href="#contact">contact</a>
-        
-    </nav>
 
-    <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <a href="#" class="fas fa-user"></a>
-    </div>
+ <!-- header section ends -->
 
-</header>
-<!-- header section ends -->
+ <!-- home section starts -->
 
-<!-- home section starts -->
+    <section class="home">
 
-<section class="home" id="home">
+        <div class="content">
+            <!-- <img src="tulips-img.jpg" alt=""> -->
+            <h3>Fresh flower</h3>
+            <span> natural & beautiful flower</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fuga, alias animi voluptatem molestias facere recusandae ducimus quos vero excepturi consequuntur, nihil totam quasi expedita odio eaque laudantium doloribus quisquam!</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
 
-     <div class="content">
-        <!-- <img src="tulips-img.jpg" alt=""> -->
-        <h3>Fresh flower</h3>
-        <span> natural & beautiful flower</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fuga, alias animi voluptatem molestias facere recusandae ducimus quos vero excepturi consequuntur, nihil totam quasi expedita odio eaque laudantium doloribus quisquam!</p>
-        <a href="#" class="btn">Shop now</a>
-     </div>
-
-</section>
-
+    </section>
+    
+</div>
 <!-- home section ends -->
 
 <!-- about section start -->
@@ -417,6 +420,8 @@
 </section>
 
 <!-- footer section ends -->
+
+<script src="main.js"></script>
 
 </body>
 </html>

@@ -69,9 +69,6 @@ header .navbar a {
     color: #666;
 }
 
-.navbar a.active{
-    color: var(--pink);
-}
 
 header .icons a {
     font-size: 2.5rem;
@@ -81,6 +78,10 @@ header .icons a {
 
 header .navbar a:hover,
 header .icons a:hover {
+    color: var(--pink);
+}
+ 
+header nav a.active {
     color: var(--pink);
 }
 
@@ -103,7 +104,7 @@ header .fa-bars {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url("images/tulips-img.jpg") no-repeat;
+    background: url("images/home-flwr.jpeg") no-repeat;
     background-size: cover;
     background-position: center;
 }

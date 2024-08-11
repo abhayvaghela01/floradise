@@ -494,6 +494,20 @@ header .fa-bars {
     border-top: .1rem solid rgba(0, 0, 0, .1);
 }
 
+/* animation */
+
+.heading {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.heading.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 /* Media Queries */
 @media (max-width: 990px) {
     html {
